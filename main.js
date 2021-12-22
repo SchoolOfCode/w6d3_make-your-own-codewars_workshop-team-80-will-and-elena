@@ -7,20 +7,16 @@
 
 //👉 Write the function your CodeWarriors will start with below here:
 export function calculateBMI(mass, height) {
-  return Math.floor(mass / (height * height));
+  // Change bmi to be the person's BMI 🏋️ calculated
+  // from their weight and height and return it.
+  let bmi = 55
+  return bmi
 }
 
 export function pickBiggestBMI(people){
-  let maxName = undefined
-  let maxBMI = 0
-  for (let i = 0; i < people.length; i++) {
-    let p = people[i]
-    let bmi = calculateBMI(p.weight, p.height)
-    if (bmi > maxBMI) {
-      maxBMI = bmi
-      maxName = p.name
-    }
-  }
-
-  return maxName;
+  // Return the person with the biggest BMI.
+  // If there are two people with the same BMI,
+  //    return the first in the list.
+  // If the list of people is empty then return undefined
+  return
 }
