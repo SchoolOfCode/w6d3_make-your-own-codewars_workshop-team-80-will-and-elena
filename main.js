@@ -8,10 +8,10 @@
 let tomMass = 78;
 let tomHeight = 1.80;
 let bettyMass = 60;
-let bettyHeight = 1.50
+let bettyHeight = 1.50;
 
-let tomBMI = tomMass / (tomHeight * tomHeight);
-let bettyBMI = bettyMass / (bettyHeight * bettyHeight);
+let tomBMI = Math.floor(tomMass / (tomHeight * tomHeight));
+let bettyBMI = Math.floor(bettyMass / (bettyHeight * bettyHeight));
 
 if(tomBMI > bettyBMI){
   console.log(`Tom's BMI is bigger than Betty's`);
