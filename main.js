@@ -22,3 +22,10 @@ else {
   return `Betty's BMI ${bettyBMI} is bigger than Tom's ${tomBMI}`;
 }
 //👉 Write the function your CodeWarriors will start with below here:
+function calculateBMI(mass, height) {
+  return Math.floor(mass / (height * height));
+}
+console.log(calculateBMI(78, 1.80))
+
+
+
