@@ -9,7 +9,7 @@
 export function calculateBMI(mass, height) {
   // Change bmi to be the person's BMI 🏋️ calculated
   // from their weight and height and return it.
-  let bmi = 55
+  
   return bmi
 }
 
